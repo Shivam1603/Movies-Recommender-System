@@ -1,10 +1,12 @@
-SUMMARY
+# Algorithm Used 
+Collaborative Filtering
+# SUMMARY
 ================================================================================
 
 These files contain 1,000,209 anonymous ratings of approximately 3,900 movies 
 made by 6,040 MovieLens users who joined MovieLens in 2000.
 
-USAGE LICENSE
+## USAGE LICENSE
 ================================================================================
 
 Neither the University of Minnesota nor any of the researchers
@@ -31,7 +33,7 @@ purposes under the following conditions:
 If you have any further questions or comments, please contact GroupLens
 <grouplens-info@cs.umn.edu>. 
 
-CITATION
+## CITATION
 ================================================================================
 
 To acknowledge use of the dataset in publications, please cite the following
@@ -42,7 +44,7 @@ and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4,
 Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872
 
 
-ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS
 ================================================================================
 
 Thanks to Shyong Lam and Jon Herlocker for cleaning up and generating the data
@@ -73,7 +75,7 @@ collaborative filtering:
 
         http://www.movielens.org/
 
-RATINGS FILE DESCRIPTION
+## RATINGS FILE DESCRIPTION
 ================================================================================
 
 All ratings are contained in the file "ratings.dat" and are in the
@@ -87,7 +89,7 @@ UserID::MovieID::Rating::Timestamp
 - Timestamp is represented in seconds since the epoch as returned by time(2)
 - Each user has at least 20 ratings
 
-USERS FILE DESCRIPTION
+## USERS FILE DESCRIPTION
 ================================================================================
 
 User information is in the file "users.dat" and is in the following
@@ -134,7 +136,7 @@ information are included in this data set.
 	* 19:  "unemployed"
 	* 20:  "writer"
 
-MOVIES FILE DESCRIPTION
+## MOVIES FILE DESCRIPTION
 ================================================================================
 
 Movie information is in the file "movies.dat" and is in the following
@@ -168,3 +170,4 @@ year of release)
 - Some MovieIDs do not correspond to a movie due to accidental duplicate
 entries and/or test entries
 - Movies are mostly entered by hand, so errors and inconsistencies may exist
+
